@@ -1,0 +1,35 @@
+.container__feedback-alunas-um{
+    display: block;
+}
+
+.resultados__alunas-titulo {
+    font-size: 1em;
+    color: var(--cor-texto-frase);
+    text-align: center;
+    margin: 2em 2em 0 2em;
+    font-weight: 700;
+    text-shadow: black 0.1em 0.4em 1em;
+}
+
+.swiper {
+    text-align: center;
+}
+
+.swiper-slide img {
+    width: 80%;
+    margin: 1.7em 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #ffffff;
+    padding: 0 -4em ;
+}
+
+.swiper-scrollbar {
+    display: none;
+}
+
+.swiper-pagination{
+   display: none;
+}

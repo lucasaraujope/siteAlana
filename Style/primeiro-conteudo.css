@@ -1,0 +1,120 @@
+.container {
+    background: linear-gradient(#e3c4c8 20%, #CA848A 55%, #B35A66 80%, #AE5662 90%);
+    text-align: center;
+}
+
+.container__logo-principal {
+    padding-top: 1.2em;
+}
+
+.img-alana-web{
+    display: none;
+}
+
+.informacoes__titulo-principal {
+    font-size: 1em;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    font-weight: 700;
+    margin: 0.5em;
+    padding: 0.8em;
+}
+
+.informacoes__video-web{
+    display: none;
+}
+
+.container__seta-texto {
+    margin: 1em 0;
+}
+
+.primeiro__container-bg-img{
+    background-image: url(/Assets/Group\ 9.svg);
+    z-index: 1000;
+}
+
+.pitch-texto {
+    font-size: 0.9em;
+    color: #FFF2F1;
+    font-weight: 500;
+    text-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0);
+    line-height: 1em;
+    padding: 1.5em;
+    font-weight: 100;
+    text-shadow: black 0.1em 0.2em 0.4em;
+}
+
+.container__pitch-venda{
+    text-align: center;
+}
+
+.botao__compra {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    background: var(--cor-botao);
+    display: inline-block;
+    padding: 0.8em 2em;
+    border-radius: 15px;
+    margin: 1em 0 0.5em 0;
+    cursor: pointer;
+    box-shadow: 1px 1px 150px white;
+}
+
+.gradiente{
+    background-image: linear-gradient(#CA848A, #F5E3E2, #CA848A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.continer__pitch-e-resultados-web{
+    display:none;
+}
+
+@media screen and (min-width: 1400px){
+    .container{
+        padding: 1% 5%;
+    }
+
+    .container__logo-principal{
+        display: inline;
+        text-align: center;
+        width: 20%;
+    }
+
+    .container__informacoes{
+        display: flex;
+    }
+
+    .img-alana-web{
+        display: block;
+        width: 50%;
+        z-index: 0;
+    }
+
+    .informacoes__texto-e-vg-video{
+        text-align: center;
+    }
+
+    .container__seta-texto{
+        display: none;
+    }
+
+    .informacoes__titulo-principal{
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .informacoes__video-web{
+        display: block;
+    }
+
+    .container__video{
+        display: none;
+    }
+    
+}
+
+
+

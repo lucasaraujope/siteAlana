@@ -1,0 +1,24 @@
+.container__frase-alana {
+    background-color: var(--cor-cinco-do-gradiente);
+    padding: 1em;
+    background-image: url(/Assets/Feed\ Alana\ Vaccari\ \(6\)\ 1.svg);
+    background-repeat: no-repeat;
+    height: 11em;
+    margin: 1em 0;
+}
+
+
+.frase-alana__titulo {
+    margin: 0.9em 1em 0 12.7em;
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.frase-alana__texto-destaque {
+    color: var(--cor-primaria);
+}
+
+.frase-alana__assinatura {
+    margin: 0 0 0 11em;
+}

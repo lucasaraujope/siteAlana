@@ -1,0 +1,128 @@
+.modulos {
+    padding: 5em 0;
+
+}
+
+.titulo_modulos {
+    display: flex;
+    font-size: 1.3em;
+    font-weight: 700;
+    align-items: center;
+    text-shadow: black 0.1em 0.2em 0.4em;
+}
+
+.marcador {
+    margin-left: -1em;
+}
+
+.texto__titulo-modulo {
+    margin-left: 0.5em;
+    color: var(--cor-texto-frase);
+}
+
+.modulo-um-informacoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.imagem__modulo-um {
+    margin: 2em 0 0 5.5em;
+    z-index: 4;
+}
+
+
+.titulo__modulo-um {
+    text-align: center;
+    margin: 3em 0.6em 0 0;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 700;
+    background-color: #FFF2F1;
+    padding: 0.3em;
+    color: #5D2935;
+    border-radius: 2em;
+}
+
+.texto__modulo-um {
+    text-align: center;
+    padding-top: 0.7em;
+    margin-right: 1em;
+    font-size: 0.8em;
+    color: white;
+}
+
+.titulo__modulo-dois {
+    text-align: center;
+    margin: 0 0 0 0.6em;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 700;
+    background-color: #FFF2F1;
+    padding: 0.3em;
+    color: #5D2935;
+    border-radius: 2em;
+}
+
+.texto__modulo-dois {
+    text-align: center;
+    padding-top: 0.7em;
+    margin-left: 1em;
+    font-size: 0.8em;
+    color: white;
+}
+
+.imagem__modulo-dois {
+    margin: -0.7em 6.05em 0 0;
+    z-index: 3;
+}
+
+.imagem__modulo-tres {
+    margin: -1em 0 0 5.5em;
+    z-index: 2;
+}
+
+.titulo__modulo-tres {
+    text-align: center;
+    margin: 0 0.6em 0 0;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 700;
+    background-color: #FFF2F1;
+    padding: 0.3em;
+    color: #5D2935;
+    border-radius: 2em;
+}
+
+.texto__modulo-tres {
+    text-align: center;
+    padding-top: 0.7em;
+    margin-right: 1em;
+    font-size: 0.8em;
+    color: white;
+}
+
+.titulo__modulo-quatro {
+    text-align: center;
+    margin: 0 0 0 0.6em;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 700;
+    background-color: #FFF2F1;
+    padding: 0.3em;
+    color: #5D2935;
+    border-radius: 2em;
+}
+
+.texto__modulo-quatro {
+    text-align: center;
+    padding-top: 0.7em;
+    margin-left: 1em;
+    font-size: 0.8em;
+    color: white;
+}
+
+.imagem__modulo-quatro {
+    margin: -1em 6.05em 0 0;
+    z-index: 1;
+}

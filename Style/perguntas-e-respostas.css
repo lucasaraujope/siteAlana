@@ -1,0 +1,23 @@
+
+.titulo_faq{
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 700;
+    align-items: center;
+    text-shadow: black 0.1em 0.2em 0.7em;
+}
+
+.faq{
+    margin-top: 1em;
+    padding: 0 0.3em;
+}
+
+.faq-imag{
+    width: 100%;
+    margin: 0.2em 0;
+}
+ 
+.logo-final{
+    text-align: center;
+    margin-top: -1.5em;
+}

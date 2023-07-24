@@ -1,0 +1,17 @@
+.container__alunas{
+    padding: 1em 0 4em 0.2em; 
+    text-align: center;
+    background: linear-gradient(rgba(174, 86, 98, 0) 50%, #B35A66 80%, rgba(245, 227, 226, 0.6) 90%, #F5E3E2)
+}
+
+.container__alunas-texto{
+    margin: 1.5em 1.1em;
+    font-weight: 700;
+    text-shadow: black 0.1em 0.2em 0.7em;
+}
+
+.container__alunas-texto{
+    color: #F5E3E2;
+    font-weight: bold;
+}
+

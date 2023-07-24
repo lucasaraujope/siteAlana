@@ -1,0 +1,58 @@
+/* Essa estilização foi feita para alterar o título da sessão*/
+.carrossel__titulo {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--cor-laranja);
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    background: var(--branco);
+}
+
+
+/*Ajustando o tamanho dos livros para que eles fiquem do tamanho correto para a versão mobile*/
+.swiper-slide img {
+    width: 100%;
+}
+
+/*Usamos essa estilização para escluir as setas que arrastam os livros para o lado*/
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+/*Usamos essa estilização para colocar os 3 pontinhos acima dos livros*/
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em;
+}
+
+/*Usamos essa estilização para remover a barra de rolagem abaixo do swiper*/
+.swiper-scrollbar {
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .carrossel__titulo{
+        font-size: 1.6em;
+    }
+
+    .swiper{
+        width: 60%; 
+    }
+
+    .swiper-pagination{ 
+        margin: 2em 0 4.5em 0;
+    }
+
+    .swiper-slide{
+        margin-bottom: 3em;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+
+}
