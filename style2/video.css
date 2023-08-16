@@ -33,7 +33,7 @@
   font-size: 1.7rem;
   font-weight: 700;
   line-height: normal;
-  padding: 2.1rem;
+  padding: 1.6rem;
 
 }
 
@@ -42,14 +42,14 @@
 }
 
 .video__seta {
-  margin-top: 2rem;
+  margin-top: 1.6rem;
   display: inline-block;
   text-align: center;
 }
 
 .layer-video {
   margin: 0 auto -1rem;
-  width: 40rem;
+  width: 37rem;
   height: 30rem;
   position: relative;
 }
@@ -64,8 +64,8 @@
 
 .layer-video-mobile{
   position: absolute;
-  top: 32rem;
-  left: 2.5rem;
+  top: 33rem;
+  left: 3.3rem;
   display: block;
 }
 
