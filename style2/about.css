@@ -1,0 +1,216 @@
+.container__about-e-frase{
+  min-width: 39rem;
+}
+
+.frase-e-imagem {
+  margin: 2rem auto 2rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  margin-left: 3rem;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  background-image: url(/Assets/background.svg);
+}
+
+.frase__texto-e-assinatura {
+  width: 13.7rem;
+  height: 16.3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frase__texto-e-assinatura p {
+  color: #F5E3E2;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Century;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frase__texto-e-assinatura p span {
+  color: #5D2935;
+}
+
+.frase__imagem {
+  width: 1.94rem;
+  height: 18.3rem;
+  
+  display: block;
+}
+
+.about {
+  background-color: #F5F5F5;
+
+  width: 37.2rem;
+  height: 22.2rem;
+
+  border-radius: 7px;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.about__titulo {
+  color: #B35A66;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 8px;
+}
+
+.about-informacoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.3rem;
+  margin: 1.1rem;
+}
+
+
+.about__img-e-assinatura {
+  width: 12.6rem;
+  height: 14.7rem;
+  display: block;
+}
+
+.about__assinatura-Alana {
+  width: 12.6rem;
+  height: 2.4rem;
+}
+
+.about-texto {
+  width: 21rem;
+  height: 16rem;
+}
+
+.about-texto p {
+  color: #5D2935;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about__img-web,
+.imagem-web {
+  display: none;
+}
+
+@media (min-width: 1400px) {
+
+  .about__imagem-Alana,
+  .frase__imagem,
+  .about__assinatura-Alana {
+    display: none;
+  }
+
+  .container__about-e-frase {
+    
+    height: 65rem;
+  }
+
+  .about__caixa-web {
+    height: 73.2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 110rem;
+    margin: 2rem auto;
+    background-image: url(/Assets/about__img-web.svg);
+    background-repeat: no-repeat;
+   background-position: top 14vh left 25vw;
+  }
+
+  .imagem-web {
+    display: block;
+    width: 50%;
+  }
+
+  .caixa__conteudo-about{
+    display: flex;
+    height: 42.8rem;
+    flex-direction: row-reverse;
+    gap: 8.9rem;
+  }
+
+  .frase-e-imagem {
+    margin: 0;
+  }
+
+  .frase__texto-e-assinatura {
+    display: flex;
+    flex-direction: column;
+    width: 37.1rem;
+    height: 23.2rem;
+    justify-content: space-between;
+    
+  }
+
+  .frase__texto-e-assinatura p {
+    width: 37.1rem;
+    height: 26.8rem;
+    font-size: 3.5rem;
+  }
+
+  .about {
+    width: 68.3rem;
+    height: 42.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    z-index: -1;
+  }
+
+  .caixa__about-web {
+    width: 49.3rem;
+    height: 36.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    margin: 1rem 9.2rem 3.3rem 5.3rem;
+    align-items: left;
+    
+  }
+
+  .about__titulo {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  .about-informacoes {
+    display: block;
+    width: 49.3rem;
+  }
+
+  .about__img-e-assinatura {
+    display: none;
+  }
+
+  .about-texto p {
+    font-size: 3rem;
+    width: 49.3rem;
+    text-align: left;
+  }
+
+  .img-assinat {
+    
+    width: 24.3rem;
+  }
+
+  .caixa__img-assinatura-web{
+    text-align: right;
+  }
+}

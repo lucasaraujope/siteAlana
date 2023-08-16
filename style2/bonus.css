@@ -1,0 +1,76 @@
+.container__bonus {
+  width: 39.3rem;
+  text-align: center;
+  background-image: url(/Assets/background.svg);
+  min-width: 39em;
+  max-width: 70em;
+  margin: 0 auto;
+}
+
+.bonus-mobile{
+  display: block;
+}
+
+.bonus__titulo {
+  text-align: center;
+  display: block;
+}
+
+.bonus__info {
+  width: 37rem;
+  height: 60.2rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.button-buy {
+  display: inline-block;
+  padding: .8rem 1.5rem;
+  background: #2F2D30;
+
+  border-radius: 1.5rem;
+
+  text-decoration: none;
+  font-size: 1.9rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 150px white;
+  margin-top: 3.3rem;
+  font-weight: 600;
+}
+
+.button-buy p {
+  background: linear-gradient(180deg, #CA848A 0%, #F5E3E2 58.33%, rgba(202, 132, 138, 0.92) 99.99%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img-modulo-bonus-web {
+  display: none;
+}
+
+@media (min-width: 1400px) {
+  
+  .img-modulo-bonus-web {
+    display: block;
+  }
+
+  .sessao-bonus-web{
+    display: inline-block;
+    
+  }
+
+  .bonus-mobile{
+    display: none;
+    
+  }
+
+  .bonus__titulo{
+    display: none;
+  }
+
+  .bonus__info{
+    display: none;
+  }
+
+}
