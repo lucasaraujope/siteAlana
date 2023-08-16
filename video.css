@@ -1,0 +1,152 @@
+.container__video {
+  padding: 2.6rem 1.7rem 1.5rem;
+  background: linear-gradient(#e3c4c8 20%, #CA848A 55%, #B35A66 80%, #AE5662 90%);
+  text-align: center;
+  min-width: 39em;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+.video__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.1rem;
+  background-image: url(/Assets/background.svg);
+  margin: 0 auto;
+}
+
+.logo__um {
+  width: 16.7rem;
+  height: 7.0rem;
+}
+
+
+.video__imagem-web {
+  display: none;
+}
+
+.video__titulo {
+  color: #5D2935;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1.6rem;
+
+}
+
+.video__caixa-seta {
+  text-align: center;
+}
+
+.video__seta {
+  margin-top: 1.6rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.layer-video {
+  margin: 0 auto -1rem;
+  width: 37rem;
+  height: 30rem;
+  position: relative;
+}
+
+.img-alana-web{
+  display: none;
+}
+
+.layer-video-web{
+  display: none;
+}
+
+.layer-video-mobile{
+  position: absolute;
+  top: 31.7rem;
+  left: 3.3rem;
+  display: block;
+}
+
+@media (min-width: 1400px) {
+  .container__video {
+    min-width: 1400px;
+    max-width: 2400px;
+    padding: 2.9rem 11.8rem 0;
+    text-align: center;
+  }
+
+  .novo__container-video{
+    display: flex;
+  }
+
+  .img-alana-web{
+    display: block;
+    margin-left: 8rem;
+  }
+
+  .video__info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 15rem;
+    align-items: center;
+  }
+
+  .logo__um {
+    width: 25.4rem;
+    height: 11.4rem;
+  }
+
+  .video__caixa-info-video-web {
+    display: flex;
+    flex-direction: column;
+    width: 60.2rem;
+    height: 56.7rem;
+  }
+
+  .video__imagem-web {
+    display: block;
+    width: 53.9rem;
+    height: 56.7rem;
+  }
+
+  .video__titulo {
+    width: 61rem;
+    height: 18.5rem;
+    color: #5D2935;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .video__seta {
+    display: none;
+  }
+
+  .layer-video{
+    width: 60rem;
+    height: auto;
+    margin: 0; 
+    position: relative;   
+  }
+
+  .caixa__layer-video{
+    text-align: center;
+  }
+
+  .layer-video-web{
+    position: absolute;
+    top: 23.6rem;
+    left: 4.5rem;
+    display: block;  }
+
+  .layer-video-mobile{
+    display: none;
+  }
+
+}
