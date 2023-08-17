@@ -1,0 +1,39 @@
+@import url(/style2/video.css);
+@import url(/style2/feedback-swiper-celular.css);
+@import url(/style2/pitch-swiper.css);
+@import url(/style2/about.css);
+@import url(/style2/logo-abaixo-about.css);
+@import url(/style2/modulos.css);
+@import url(/style2/bonus.css);
+@import url(/style2/alunas.css);
+@import url(/style2/feedback-celular.css);
+@import url(/style2/perguntas-e-respostas.css);
+
+
+:root{
+  font-size: 62.5%;
+  --swiper-theme-color: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  background: #AE5662;
+  min-width: 39rem;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+  min-width: 40rem;
+  background-image: url(/Assets/bg-artner.svg);
+}
+

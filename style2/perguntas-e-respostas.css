@@ -1,0 +1,63 @@
+.container__perguntas-frequentes {
+  min-width: 39.9rem;
+  background-image: url(/Assets/background.svg);
+  margin: 0 auto;
+}
+
+.perguntas-frequentes__titulo {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.perguntas-frenquentes {
+  min-width: 36.3rem;
+  margin: 1.5rem auto;
+}
+
+.perguntas-frequentes__titulo {
+  color: #F5E3E2;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ultima-logo{
+  display: block;
+  text-align: center;
+}
+
+.perguntas-frequentes__titulo img{
+  display: block;
+}
+
+@media (min-width: 1400px){
+  .perguntas-frenquentes{
+    width: 80rem;
+    height: auto;
+  }
+  .perguntas-frenquentes img{
+    width: 50vw;
+  }
+
+  .perguntas-frequentes__titulo img{
+    display: none;
+  }
+
+  .perguntas-frequentes__titulo{
+    text-align: center;
+    display: block;
+  }
+
+  .perguntas-frequentes__titulo{
+    font-size: 4rem;
+  }
+
+  .ultima-logo img{
+    width: 32.8rem;
+    height: 28rem;
+  }
+  
+}
