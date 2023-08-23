@@ -25,7 +25,7 @@
 .button-buy {
   display: inline-block;
   padding: .8rem 1.5rem;
-  background: #2F2D30;
+  background: #F5E3E2;
 
   border-radius: 1.5rem;
 
@@ -38,10 +38,7 @@
 }
 
 .button-buy p {
-  background: linear-gradient(180deg, #CA848A 0%, #F5E3E2 58.33%, rgba(202, 132, 138, 0.92) 99.99%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2F2D30;
 }
 
 .img-modulo-bonus-web {

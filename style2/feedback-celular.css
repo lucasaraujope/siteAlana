@@ -1,6 +1,6 @@
 .container__feedback-celular {
   
-  background: linear-gradient(#F5E3E2 3%, rgba(245, 227, 226, 0.5) 15%, rgba(174, 86, 98, 0) 25%, rgba(179, 90, 102, 0.9) 23%);
+  background: linear-gradient(#F5E3E2 3%, rgba(245, 227, 226, 0.5) 15%, rgba(174, 86, 98, 0) 25%, rgba(141, 55, 67, 1) 23%);
   text-align: center;
   min-width: 10%;
   height: auto;
@@ -62,7 +62,7 @@
 
 @media (min-width: 1400px) {
   .container__feedback-celular {
-    background: rgba(179, 90, 102, 0.9);
+    background: rgba(141, 55, 67, 1);
     padding: 9.6rem 11.8rem;
     background-image: url(/Assets/bg-artner.svg);
     display: flex;

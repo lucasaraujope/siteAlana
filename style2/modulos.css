@@ -1,10 +1,10 @@
 .container__modulos {
-  background: #AE5662;
+  background: #8D3743;
   background-image: url(/Assets/bg-artner.svg);
   min-width: 39.9rem;
   height: 60.2rem;
   padding: 4.7rem 0.9px 6.3rem;
-  margin-top: 0 auto;
+  margin-top: 5em auto 0;
 }
 
 .modulos__titulo {

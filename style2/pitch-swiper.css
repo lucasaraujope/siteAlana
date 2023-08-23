@@ -3,7 +3,7 @@
 }
 
 .container__pitch-swiper {
-  background: #AE5662;
+  background: #8D3743;
   background-image: url(/Assets/bg-artner.svg);
   background-repeat: no-repeat;
   min-width: 39em;
@@ -28,7 +28,7 @@
 
 .pitch a {
   padding: .8rem 1.5rem;
-  background: #2F2D30;
+  background: #F5E3E2;
 
   border-radius: 1.5rem;
 
@@ -45,10 +45,7 @@
 
 
 a .p1 {
-  background: linear-gradient(180deg, #CA848A 0%, #F5E3E2 58.33%, rgba(202, 132, 138, 0.92) 99.99%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2F2D30;
   font-weight: 600;
   display: block;
 }
